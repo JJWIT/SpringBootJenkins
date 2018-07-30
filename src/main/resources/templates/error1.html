@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>错误提示页面ArithmeticException</title>
+</head>
+<body>
+	出错了,请联系管理员...
+	<span th:text="error1"></span>
+	这种是使用@ExceptionHandler注解，接受的值是mav.addObject("error",e.toString());中的key
+</body>
+</html>
